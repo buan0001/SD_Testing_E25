@@ -5,4 +5,4 @@
 
 ### Lessons
 
-- [Lesson 1](https://github.com/arturomorarioja-kea/WD_UX_F25/blob/main/Lesson01/README.md) (26 August): Introduction to Software Testing. SDLSc and the V-model. Introduction to Unit Testing
+- [Lesson 1](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson01/README.md) (26 August): Introduction to Software Testing. SDLSc and the V-model. Introduction to Unit Testing
