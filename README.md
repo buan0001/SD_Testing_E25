@@ -12,7 +12,7 @@
 - [Lesson 5](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson05/README.md) (23 September)
 - [Lesson 6](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson06/README.md) (30 September)
 - [Lesson 7](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson07/README.md) (7 October)
-- [Lesson 8] (28 October): Student presentations
+- Lesson 8 (28 October): Student presentations
 - [Lesson 9](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson09/README.md) (4 November)
 - [Lesson 10](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson10/README.md) (11 November)
 - [Lesson 11](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson11/README.md) (18 November)
