@@ -14,5 +14,5 @@
 - [Lesson 7](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson07/README.md) (7 October): Acceptance Testing. Agile and Testing. Test-driven Development
 - Lesson 8 (28 October): Student presentations
 - [Lesson 9](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson09/README.md) (4 November): Test Management: Risk Analysis. Static Testing: Reviews
-- [Lesson 10](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson10/README.md) (11 November): Web Performance Testing. Stress Performance Testing
-- [Lesson 11](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson11/README.md) (18 November): Usability Testing
+- [Lesson 10](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson10/README.md) (11 November): Stress Performance Testing. Guest lecture
+- [Lesson 11](https://github.com/arturomorarioja-kea/SD_Testing_E25/blob/main/Lesson11/README.md) (18 November): Web Performance Testing. Usability Testing
