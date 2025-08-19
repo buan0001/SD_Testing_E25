@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4d68c81b-252c-4248-9a2b-33af8233d2db" align="left" style="z-index: 999;"/>
+<img width="225" height="150" alt="image" src="https://github.com/user-attachments/assets/4d68c81b-252c-4248-9a2b-33af8233d2db" align="left" style="z-index: 999;"/>
 
 # Testing - Autumn 2025
 ## PBA Software Development
