@@ -7,18 +7,36 @@
 [Previous knowledge survey]: #
 
 [10:30 Merete visits]: #
-[Intro to Software Testing]: #
-[SDLCs and the V-model]: #
-[Intro to Unit Testing, including data providers]: #
+
+[## Class takeaways]: #
+[Check out the following slide decks on Itslearning:]: #
+[- **Introduction to Software Testing**, with special focus on the following concepts]: #
+[  - Testing vs. Debugging]: #
+[  - Static vs. Dynamic Testing]: #
+[  - Positive vs. Negative Testing]: #
+[  - Verification and Validation]: #
+[  - Regression Testing]: #
+[- SDLCs and the V-model]: #
+[]: #
+[]: #
+[]: #
+[]: #
+[]: #
+[- Intro to Unit Testing, including data providers]: #
+[]: #
+[]: #
 
 [## Homework]: #
-[Check out the following code samples:]: #
-[- Calculator Sum. Very basic unit tests mostly following the AAA pattern]: #
-[- VAT Calculation. Data provider/parameterised test examples. Jest's are a bit "playful"]: #
-[- Length Converter. Data providers and exception testing]: #
-[]: #
-[]: #
-[]: #
+[- Check out the following code samples:]: #
+[  - Calculator Sum. Very basic unit tests mostly following the AAA pattern]: #
+[  - VAT Calculation. Data provider/parameterised test examples. Jest's are a bit "playful"]: #
+[  - Length Converter. Data providers and exception testing]: #
+
+[- Research unit testing frameworks for your preferred programming language(s)]: #
+
+[- Design and write unit tests for the following exercises using the programming language and unit testing framework of your choice. Try to elaborate a comprehensive list of test cases that bring value to the process:]: #
+[  - Calculator]: #
+[  - Roman Numerals]: #
 []: #
 []: #
 []: #
