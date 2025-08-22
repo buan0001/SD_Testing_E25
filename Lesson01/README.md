@@ -38,8 +38,3 @@
 [- Design and write unit tests for the following exercises using the programming language and unit testing framework of your choice. Try to elaborate a comprehensive list of test cases that bring value to the process:]: #
 [  - Calculator]: #
 [  - Roman Numerals]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
