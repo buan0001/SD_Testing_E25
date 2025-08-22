@@ -16,15 +16,16 @@
 [  - Positive vs. Negative Testing]: #
 [  - Verification and Validation]: #
 [  - Regression Testing]: #
-[- SDLCs and the V-model]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[- Intro to Unit Testing, including data providers]: #
-[]: #
-[]: #
+[  - The General Testing Principles]: #
+[- **SDLCs and the V-model**, with special focus on:]: #
+[  - The rationale of the V-model]: #
+[  - How to apply it in the context of a software development project]: #
+[  - How to apply it in an iterative development (e.g., Agile)]: #
+[  - The differences between the four levels of testing (unit, integration, system, acceptance)]: #
+[  - The Test Pyramid, with a critical focus as to its present day validity]: #
+[- **Introduction to Unit Testing**, specifically:]: #
+[  - The AAA pattern]: #
+[  - Parameterised tests/Data providers]: #
 
 [## Homework]: #
 [- Check out the following code samples:]: #
