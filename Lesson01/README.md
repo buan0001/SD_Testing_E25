@@ -11,7 +11,7 @@
 [SDLCs and the V-model]: #
 [Intro to Unit Testing, including data providers]: #
 
-[## Homework]
+[## Homework]: #
 [Check out the following code samples:]: #
 [- Calculator Sum. Very basic unit tests mostly following the AAA pattern]: #
 [- VAT Calculation. Data provider/parameterised test examples. Jest's are a bit "playful"]: #
