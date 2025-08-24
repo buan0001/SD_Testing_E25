@@ -27,6 +27,8 @@
 [  - The AAA pattern]: #
 [  - Parameterised tests/Data providers]: #
 
+[Class samples: https://github.com/arturomorarioja/js_format_name_unit_tests, https://github.com/arturomorarioja/py_format_name_unit_tests]: #
+
 [## Homework]: #
 [- Check out the following code samples:]: #
 [  - Calculator Sum. Very basic unit tests mostly following the AAA pattern]: #
