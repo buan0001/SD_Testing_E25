@@ -2,6 +2,8 @@
 
 # Lesson 1 - 26 August
 
+[Download SDLCs slides in both formats]: #
+
 [Intro to subject]: #
 [Quick roll call & introductions]: #
 [Previous knowledge survey]: #
