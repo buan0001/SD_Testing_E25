@@ -2,7 +2,7 @@
 
 # Lesson 1 - 26 August
 
-[Download SDLCs slides in both formats]: #
+[Download SDLCs and Intro to UT slides in both formats]: #
 [Download UMS.txt]: #
 
 [Intro to subject]: #
