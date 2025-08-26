@@ -19,6 +19,7 @@ Check out the following slide decks on Itslearning:
   - The Test Pyramid, with a critical focus as to its present day validity
 - **Introduction to Unit Testing**, specifically:
   - The AAA pattern
+ 
 [  - Parameterised tests/Data providers]: #
 
 [Class samples: https://github.com/arturomorarioja/js_format_name_unit_tests, https://github.com/arturomorarioja/py_format_name_unit_tests]: #
