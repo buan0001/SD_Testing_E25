@@ -26,7 +26,7 @@ Check out the following slide decks on Itslearning:
 
 ## Homework
 - Check out the following code samples:
-  - Calculator Sum. Very basic unit tests mostly following the AAA pattern
+  - Calculator Sum ([Python/Pyunit](https://github.com/arturomorarioja/py_sum_unit_tests) | [JavaScript/Jest](https://github.com/arturomorarioja/js_sum_unit_tests) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_sum_unit_tests)). Very basic unit tests mostly following the AAA pattern
   - VAT Calculation. Data provider/parameterised test examples. Jest's are a bit "playful"
   - Length Converter. Data providers and exception testing
 
