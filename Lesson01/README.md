@@ -25,13 +25,14 @@ Check out the following slide decks on Itslearning:
 [Class samples: https://github.com/arturomorarioja/js_format_name_unit_tests, https://github.com/arturomorarioja/py_format_name_unit_tests]: #
 
 ## Homework
-- Check out the following code samples:
+- Check out the following code sample:
   - Calculator Sum ([Python/Pyunit](https://github.com/arturomorarioja/py_sum_unit_tests) | [JavaScript/Jest](https://github.com/arturomorarioja/js_sum_unit_tests) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_sum_unit_tests)). Very basic unit tests mostly following the AAA pattern
-  - VAT Calculation. Data provider/parameterised test examples. Jest's are a bit "playful"
-  - Length Converter. Data providers and exception testing
+
+[  - VAT Calculation. Data provider/parameterised test examples. Jest's are a bit "playful"]: #
+[  - Length Converter. Data providers and exception testing]: #
 
 - Research unit testing frameworks for your preferred programming language(s)
 
 - Design and write unit tests for the following exercises using the programming language and unit testing framework of your choice. Try to elaborate a comprehensive list of test cases that bring value to the process:
-  - Calculator
-  - Roman Numerals
+  - [Calculator](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson01/Ex%2001%20Calculator.md)
+  - [Roman Numerals](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson01/Ex%2002%20Roman%20Numerals.md)
