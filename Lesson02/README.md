@@ -8,6 +8,10 @@
 [-> Discuss slides on Pytest, Jest, PHPUnit]: #
 [-> Solution to homework: Calculator / Roman Numerals]: #
 
+[## Exercise solutions]: #
+[- Calculator(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson01/Ex%2001%20Calculator.md)]: #
+[- Roman Numerals(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson01/Ex%2002%20Roman%20Numerals.md)]: #
+
 [## Class takeaways]: #
 [Check out the following slide decks on Itslearning:]: #
 [- **Introduction to Unit Testing**, specifically:]: #
