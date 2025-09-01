@@ -12,9 +12,11 @@
 [- Follow both methods systematically for finding test cases the bring value to the project]: #
 [- Use a black-box mentality when figuring out valuable test cases for your test suites (e.g., look at the boundaries, identify values you can group together, think of edge cases)]: #
 
-[]: #
-[]: #
-[]: #
+[## Homework]: #
+[- Check out the following code samples:]: #
+[  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"]: #
+[  - Length Converter. Data providers and exception testing]: #[]: #
+
 []: #
 []: #
 []: #
