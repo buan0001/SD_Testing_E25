@@ -3,10 +3,13 @@
 # Lesson 2 - 2 September
 
 [## Class takeaways]: #
-[Check out the slide deck **Test Design Techniques - Black-box** in Itslearning, with especial attention to:]: #
-[- Equivalence partition]: #
-[- Boundary values]: #
-[- Decision tables]: #
+[Check out the following slide decks on Itslearning:]: #
+[- **Introduction to Unit Testing**, specifically:]: #
+[  - Parameterised tests]: #
+[- **Test Design Techniques - Black-box**, with especial attention to:]: #
+[  - Equivalence partition]: #
+[  - Boundary values]: #
+[  - Decision tables]: #
 
 [From now on you should:]: #
 [- Follow both methods systematically for finding test cases the bring value to the project]: #
