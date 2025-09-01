@@ -8,6 +8,7 @@
 [-> Samples: VAT (PHP, Python, Jest), Length converter (irrelevant order)]: #
 [-> Solution to homework: Roman Numerals]: #
 [-> Discuss slides on Pytest, Jest, PHPUnit]: #
+[-> BB. After EP, do Bank and Flowers]: #
 
 [## Exercise solutions]: #
 [- Calculator(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson01/Ex%2001%20Calculator.md)]: #
@@ -27,6 +28,11 @@
 [- Follow both methods systematically for finding test cases the bring value to the project]: #
 [- Use a black-box mentality when figuring out valuable test cases for your test suites (e.g., look at the boundaries, identify values you can group together, think of edge cases)]: #
 
+[## In-class exercises]: #
+[  - Equivalence partitions]: #
+[    - Bank account]: #
+[    - Flowers]: #
+
 [## Homework]: #
 [- Check out the following unit test code samples:]: #
 [  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"]: #
@@ -36,9 +42,6 @@
 [    - Provider check (Python/Pyunit(https://github.com/arturomorarioja/py_provider_check_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_provider_check_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_provider_check_unit_tests))]: #
 
 [- Do the following unit test black-box design related exercises:]: #
-[  - Equivalence partitions]: #
-[    - Bank account]: #
-[    - Flowers]: #
 [  - Equivalence partitions and boundary values]: #
 [    - Printer cartridges]: #
 [    - Password field]: #
