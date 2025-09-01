@@ -28,17 +28,27 @@
 [- Use a black-box mentality when figuring out valuable test cases for your test suites (e.g., look at the boundaries, identify values you can group together, think of edge cases)]: #
 
 [## Homework]: #
-[- Check out the following code samples:]: #
+[- Check out the following unit test code samples:]: #
 [  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"]: #
-[  - Length Converter (Python/Pyunit(https://github.com/arturomorarioja/py_length_converter_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_length_converter_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing]: #[]
+[  - Length Converter (Python/Pyunit(https://github.com/arturomorarioja/py_length_converter_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_length_converter_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing]: #
+[- Check out the following black-box test design related code samples:]: #
+[  - Equivalence partitions and boundary values]: #
+[    - Provider check (Python/Pyunit(https://github.com/arturomorarioja/py_provider_check_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_provider_check_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_provider_check_unit_tests))]: #
 
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
-[]: #
+[- Do the following unit test black-box design related exercises:]: #
+[  - Equivalence partitions]: #
+[    - Bank account]: #
+[    - Flowers]: #
+[  - Equivalence partitions and boundary values]: #
+[    - Printer cartridges]: #
+[    - Password field]: #
+[    - E-shop]: #
+[    - Framing shop]: #
+[  - Decision table testing]: #
+[    - Input form]: #
+[    - Driver's license. It also involves equivalence partitions and boundary values]: #
+[    - Airline]: #
+[  - State Transition Diagrams]: #
+[    - ATM]: #
+[    - Login]: #
+[(Python/Pyunit() | JavaScript/Jest() | PHP/PHPUnit())]: #
