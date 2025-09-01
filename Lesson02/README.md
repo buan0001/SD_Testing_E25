@@ -3,9 +3,10 @@
 # Lesson 2 - 2 September
 
 [-> download slides Intro to Unit Testing]: #
-[-> Solution to homework: Calculator (JS with JSmodules) / Roman Numerals]: #
+[-> Solution to homework: Calculator (JS with JSmodules)]: #
 [-> Data providers]: #
 [-> Samples: VAT (PHP, Python, Jest), Length converter (irrelevant order)]: #
+[-> Solution to homework: Roman Numerals]: #
 [-> Discuss slides on Pytest, Jest, PHPUnit]: #
 
 [## Exercise solutions]: #
