@@ -2,10 +2,14 @@
 
 # Lesson 2 - 2 September
 
+[-> download slides Intro to Unit Testing]: #
+[-> Samples: VAT (PHP, Python, Jest), ]: #
+[-> Solution to homework: Calculator / Roman Numerals]: #
+
 [## Class takeaways]: #
 [Check out the following slide decks on Itslearning:]: #
 [- **Introduction to Unit Testing**, specifically:]: #
-[  - Parameterised tests]: #
+[  - Parameterised tests (data providers)]: #
 [- **Test Design Techniques - Black-box**, with especial attention to:]: #
 [  - Equivalence partition]: #
 [  - Boundary values]: #
@@ -18,7 +22,7 @@
 [## Homework]: #
 [- Check out the following code samples:]: #
 [  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"]: #
-[  - Length Converter. Data providers and exception testing]: #[]
+[  - Length Converter (Python/Pyunit(https://github.com/arturomorarioja/py_length_converter_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_length_converter_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing]: #[]
 
 []: #
 []: #
