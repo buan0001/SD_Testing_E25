@@ -2,7 +2,7 @@
 
 # Lesson 2 - 2 September
 
-[-> download slides Intro to Unit Testing]: #
+[-> download slides Intro to Unit Testing + Black-box]: #
 [-> Solution to homework: Calculator (JS with JSmodules)]: #
 [-> Data providers]: #
 [-> Samples: VAT (PHP, Python, Jest), Length converter (irrelevant order)]: #
