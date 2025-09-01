@@ -3,7 +3,8 @@
 # Lesson 2 - 2 September
 
 [-> download slides Intro to Unit Testing]: #
-[-> Samples: VAT (PHP, Python, Jest), ]: #
+[-> Samples: VAT (PHP, Python, Jest), Length converter (irrelevant order)]: #
+[-> Discuss slides on Pytest, Jest, PHPUnit]: #
 [-> Solution to homework: Calculator / Roman Numerals]: #
 
 [## Class takeaways]: #
@@ -14,6 +15,7 @@
 [  - Equivalence partition]: #
 [  - Boundary values]: #
 [  - Decision tables]: #
+[- **Pytest**, **Jest**, **PHPUnit**, depending on your programming language and unit test framework of choice]: #
 
 [From now on you should:]: #
 [- Follow both methods systematically for finding test cases the bring value to the project]: #
