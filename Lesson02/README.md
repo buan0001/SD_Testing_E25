@@ -15,7 +15,7 @@
 [## Homework]: #
 [- Check out the following code samples:]: #
 [  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"]: #
-[  - Length Converter. Data providers and exception testing]: #[]: #
+[  - Length Converter. Data providers and exception testing]: #[]
 
 []: #
 []: #
