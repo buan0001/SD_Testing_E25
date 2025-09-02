@@ -16,8 +16,8 @@ Check out the following slide decks on Itslearning:
 
 - **Test Design Techniques - Black-box**, with especial attention to:
   - Equivalence partitions
-  
-[  - Boundary values]: #
+  - Boundary values
+
 [  - Decision tables]: #
 - **Pytest**, **Jest**, **PHPUnit**, depending on your programming language and unit test framework of choice
 
