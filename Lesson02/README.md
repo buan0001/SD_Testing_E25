@@ -2,9 +2,7 @@
 
 # Lesson 2 - 2 September
 
-[-> Solution to homework: Calculator (JS with JSmodules)]: #
-[-> Data providers]: #
-[-> Samples: VAT (PHP, Python, Jest), Length converter (irrelevant order)]: #
+[-> SetUp/TearDown]: #
 [-> Solution to homework: Roman Numerals]: #
 [-> Discuss slides on Pytest, Jest, PHPUnit]: #
 [-> BB. After EP, do Bank and Flowers]: #
