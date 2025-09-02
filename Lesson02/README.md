@@ -18,14 +18,14 @@ Check out the following slide decks on Itslearning:
   - Parameterised tests (data providers)
 
 - **Test Design Techniques - Black-box**, with especial attention to:
-  - Equivalence partition
-  - 
+  - Equivalence partitions
+  
 [  - Boundary values]: #
 [  - Decision tables]: #
 - **Pytest**, **Jest**, **PHPUnit**, depending on your programming language and unit test framework of choice
 
 [From now on you should:]: #
-[- Follow both methods systematically for finding test cases the bring value to the project]: #
+[- Follow black-box test design methods systematically for finding test cases the bring value to the project]: #
 [- Use a black-box mentality when figuring out valuable test cases for your test suites (e.g., look at the boundaries, identify values you can group together, think of edge cases)]: #
 
 [## In-class exercises]: #
@@ -33,10 +33,11 @@ Check out the following slide decks on Itslearning:
 [    - Bank account]: #
 [    - Flowers]: #
 
-[## Homework]: #
-[- Check out the following unit test code samples:]: #
-[  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"]: #
-[  - Length Converter (Python/Pyunit(https://github.com/arturomorarioja/py_length_converter_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_length_converter_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing]: #
+## Homework
+- Check out the following unit test code samples:
+  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"
+  - Length Converter (Python/Pyunit(https://github.com/arturomorarioja/py_length_converter_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_length_converter_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing
+
 [- Check out the following black-box test design related code samples:]: #
 [  - Equivalence partitions and boundary values]: #
 [    - Provider check (Python/Pyunit(https://github.com/arturomorarioja/py_provider_check_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_provider_check_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_provider_check_unit_tests))]: #
