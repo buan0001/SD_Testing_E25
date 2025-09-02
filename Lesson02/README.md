@@ -26,22 +26,22 @@ Check out the following slide decks on Itslearning:
 [- Use a black-box mentality when figuring out valuable test cases for your test suites (e.g., look at the boundaries, identify values you can group together, think of edge cases)]: #
 
 ## In-class exercises
-  - Equivalence partitions
-    - [Bank account](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/01%20EP%20Bank%20account.md)
-    - [Flowers](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/02%20EP%20Flowers.md)
+- Equivalence partitions
+  - [Bank account](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/01%20EP%20Bank%20account.md)
+  - [Flowers](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/02%20EP%20Flowers.md)
+- Equivalence partitions and boundary values
+  - [Printer cartridges](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/03%20EP%20BV%20Printer%20cartridges.md)
 
 ## Homework
 - Check out the following unit test code samples:
   - VAT Calculation ([Python/Pyunit](https://github.com/arturomorarioja/python_vat) | [JavaScript/Jest](https://github.com/arturomorarioja/js_vat) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"
   - Length Converter ([Python/Pyunit](https://github.com/arturomorarioja/py_length_converter_unit_tests) | [JavaScript/Jest](https://github.com/arturomorarioja/js_length_converter_unit_tests) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing
-
-[- Check out the following black-box test design related code samples:]: #
-[  - Equivalence partitions and boundary values]: #
-[    - Provider check (Python/Pyunit(https://github.com/arturomorarioja/py_provider_check_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_provider_check_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_provider_check_unit_tests))]: #
+- Check out the following black-box test design related code samples:
+  - Equivalence partitions and boundary values
+    - Provider check ([Python/Pyunit](https://github.com/arturomorarioja/py_provider_check_unit_tests) | [JavaScript/Jest](https://github.com/arturomorarioja/js_provider_check_unit_tests) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_provider_check_unit_tests))
 
 [- Do the following unit test black-box design related exercises:]: #
 [  - Equivalence partitions and boundary values]: #
-[    - Printer cartridges]: #
 [    - Password field]: #
 [    - E-shop]: #
 [    - Framing shop]: #
