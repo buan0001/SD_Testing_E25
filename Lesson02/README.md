@@ -27,8 +27,8 @@ Check out the following slide decks on Itslearning:
 
 ## In-class exercises
   - Equivalence partitions
-    - Bank account
-    - Flowers
+    - [Bank account](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/01%20EP%20Bank%20account.md)
+    - [Flowers](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/02%20EP%20Flowers.md)
 
 ## Homework
 - Check out the following unit test code samples:
