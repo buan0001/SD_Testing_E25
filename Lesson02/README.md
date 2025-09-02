@@ -16,6 +16,7 @@
 Check out the following slide decks on Itslearning:
 - **Introduction to Unit Testing**, specifically:
   - Parameterised tests (data providers)
+  - Set up and tear down
 
 - **Test Design Techniques - Black-box**, with especial attention to:
   - Equivalence partitions
