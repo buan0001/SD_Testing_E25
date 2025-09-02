@@ -36,8 +36,8 @@ Check out the following slide decks on Itslearning:
 
 ## Homework
 - Check out the following unit test code samples:
-  - VAT Calculation (Python/Pyunit(https://github.com/arturomorarioja/python_vat) | JavaScript/Jest(https://github.com/arturomorarioja/js_vat) | PHP/PHPUnit(https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"
-  - Length Converter (Python/Pyunit(https://github.com/arturomorarioja/py_length_converter_unit_tests) | JavaScript/Jest(https://github.com/arturomorarioja/js_length_converter_unit_tests) | PHP/PHPUnit(https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing
+  - VAT Calculation ([Python/Pyunit](https://github.com/arturomorarioja/python_vat) | [JavaScript/Jest](https://github.com/arturomorarioja/js_vat) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_vat_unit_tests)). Data provider/parameterised test examples. Jest's are a bit "playful"
+  - Length Converter ([Python/Pyunit](https://github.com/arturomorarioja/py_length_converter_unit_tests) | [JavaScript/Jest](https://github.com/arturomorarioja/js_length_converter_unit_tests) | [PHP/PHPUnit](https://github.com/arturomorarioja/php_length_converter_unit_tests)). Data providers and exception testing
 
 [- Check out the following black-box test design related code samples:]: #
 [  - Equivalence partitions and boundary values]: #
