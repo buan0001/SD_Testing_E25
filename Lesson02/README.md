@@ -17,11 +17,12 @@ Check out the following slide decks on Itslearning:
 - **Introduction to Unit Testing**, specifically:
   - Parameterised tests (data providers)
 
-[- **Test Design Techniques - Black-box**, with especial attention to:]: #
-[  - Equivalence partition]: #
+- **Test Design Techniques - Black-box**, with especial attention to:
+  - Equivalence partition
+  - 
 [  - Boundary values]: #
 [  - Decision tables]: #
-[- **Pytest**, **Jest**, **PHPUnit**, depending on your programming language and unit test framework of choice]: #
+- **Pytest**, **Jest**, **PHPUnit**, depending on your programming language and unit test framework of choice
 
 [From now on you should:]: #
 [- Follow both methods systematically for finding test cases the bring value to the project]: #
