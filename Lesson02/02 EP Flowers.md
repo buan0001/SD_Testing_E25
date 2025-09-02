@@ -12,7 +12,7 @@ If you were using equivalence partitioning to prepare test cases for the postage
 
 |Partition|Test case values|
 |--:|--:|
-|0.00 kr - 150.00 kr|75 kr|
+|0.01 kr - 150.00 kr|75 kr|
 |150.01 kr - 300.00 kr|225 kr|
 |300.01 kr - MAX DOUBLE|450 kr|
 
