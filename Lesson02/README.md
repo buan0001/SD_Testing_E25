@@ -25,10 +25,10 @@ Check out the following slide decks on Itslearning:
 [- Follow black-box test design methods systematically for finding test cases the bring value to the project]: #
 [- Use a black-box mentality when figuring out valuable test cases for your test suites (e.g., look at the boundaries, identify values you can group together, think of edge cases)]: #
 
-[## In-class exercises]: #
-[  - Equivalence partitions]: #
-[    - Bank account]: #
-[    - Flowers]: #
+## In-class exercises
+  - Equivalence partitions
+    - Bank account
+    - Flowers
 
 ## Homework
 - Check out the following unit test code samples:
