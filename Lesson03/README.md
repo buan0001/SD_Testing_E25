@@ -4,8 +4,8 @@
 
 [## Exercise solutions]: #
 [- Password field(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/04%20EP%20BV%20Password%20field.md)]: #
-[- [E-shop](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/05%20EP%20BV%20E-shop.md)]: #
-[- [Framing shop](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/06%20EP%20BV%20Framing%20shop.md)]: #
+[- E-shop(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/05%20EP%20BV%20E-shop.md)]: #
+[- Framing shop(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/06%20EP%20BV%20Framing%20shop.md)]: #
 
 [## Class takeaways]: #
 [Check out the following slide decks on Itslearning:]: #
