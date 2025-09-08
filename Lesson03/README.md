@@ -47,6 +47,8 @@
 [- Reflect on all the above]: #
 [- Practice the use of test doubles (mocks and stubs) in the unit testing framework(s) of your choice]: #
 [- Solve the employees exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md)]: #
+[  - Try to follow the specification to the letter]: #
+[  - Testing dates might be problematic. Give it some thought]: #
 [- Solve the following black-box test design exercises:]: #
 [  - Decision table testing]: #
 [    - Driver's license(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md). It also involves equivalence partitions and boundary values]: #
