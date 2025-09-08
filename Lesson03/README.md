@@ -2,6 +2,8 @@
 
 # Lesson 3 - 9 September
 
+[-> clone https://github.com/arturomorarioja/py_customer_onboarding_mock]: #
+
 [-> show exercise solutions. If they did not work in any of them, leave it as homework for next week]: #
 [-> 1 Intro to UT - Test doubles]: #
 [-> 2 UT best practices]: #
@@ -53,6 +55,8 @@
 
 [## Homework]: #
 [- Reflect on all the above]: #
+[- Check out the following code sample on unit test mocking:]: #
+[  - Customer onboarding (Pytest/Python(https://github.com/arturomorarioja/py_customer_onboarding_mock))]: #
 [- Practice the use of test doubles (mocks and stubs) in the unit testing framework(s) of your choice]: #
 [- Solve the employees exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md)]: #
 [  - Try to follow the specification to the letter]: #
