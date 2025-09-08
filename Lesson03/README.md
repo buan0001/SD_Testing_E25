@@ -3,10 +3,11 @@
 # Lesson 3 - 9 September
 
 [-> show exercise solutions. If they did not work in any of them, leave it as homework for next week]: #
-[-> 1 UT best practices]: #
-[-> 2 Decision table testing + in-class exercise]: #
-[-> 3 UT approaches]: #
-[-> 4 State transition testing + in-class exercise]: #
+[-> 1 Intro to UT - Test doubles]: #
+[-> 2 UT best practices]: #
+[-> 3 Decision table testing + in-class exercise]: #
+[-> 4 UT approaches]: #
+[-> 5 State transition testing + in-class exercise]: #
 [-> Prescribe employees exercise]: #
 
 [## Exercise solutions]: #
