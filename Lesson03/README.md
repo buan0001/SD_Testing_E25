@@ -2,6 +2,13 @@
 
 # Lesson 3 - 9 September
 
+[-> show exercise solutions. If they did not work in any of them, leave it as homework for next week]: #
+[-> 1 UT best practices]: #
+[-> 2 Decision table testing + in-class exercise]: #
+[-> 3 UT approaches]: #
+[-> 4 State transition testing + in-class exercise]: #
+[-> Prescribe employees exercise]: #
+
 [## Exercise solutions]: #
 [- Password field(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/04%20EP%20BV%20Password%20field.md)]: #
 [- E-shop(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/05%20EP%20BV%20E-shop.md)]: #
