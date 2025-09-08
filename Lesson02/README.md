@@ -16,7 +16,6 @@ Check out the following slide decks on Itslearning:
   - Equivalence partitions
   - Boundary values
 
-[  - Decision tables]: #
 - **Pytest**, **Jest**, **PHPUnit**, depending on your programming language and unit test framework of choice
 
 From now on you should:
@@ -43,12 +42,3 @@ From now on you should:
     - [Password field](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/04%20EP%20BV%20Password%20field.md)
     - [E-shop](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/05%20EP%20BV%20E-shop.md)
     - [Framing shop](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/06%20EP%20BV%20Framing%20shop.md)
-
-[  - Decision table testing]: #
-[    - Input form]: #
-[    - Driver's license. It also involves equivalence partitions and boundary values]: #
-[    - Airline]: #
-[  - State Transition Diagrams]: #
-[    - ATM]: #
-[    - Login]: #
-[(Python/Pyunit() | JavaScript/Jest() | PHP/PHPUnit())]: #
