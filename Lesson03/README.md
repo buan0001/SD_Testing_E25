@@ -3,7 +3,6 @@
 # Lesson 3 - 9 September
 
 [-> show exercise solutions. If they did not work in any of them, leave it as homework for next week]: #
-[-> 1 Intro to UT - Test doubles + Customer onboarding sample]: #
 [-> 2 UT best practices]: #
 [-> 3 Decision table testing + in-class exercise]: #
 [-> 4 UT approaches]: #
@@ -21,13 +20,15 @@
 [  - State Transition Diagrams]: #
 [    - Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
 
-[## Class takeaways]: #
-[Check out the following slide decks on Itslearning:]: #
+## Class takeaways
+Check out the following slide decks on Itslearning:
+
 [- **Test Design Techniques - Black-box**, with especial attention to:]: #
 [  - Decision tables]: #
 [  - State Transition Diagrams]: #
-[- **Introduction to Unit Testing**, specifically:]: #
-[  - Test Doubles]: #
+- **Introduction to Unit Testing**, specifically:
+  - Test Doubles
+    
 [- **Unit Testing Best Practices and Anti-Patterns**]: #
 [  - Best practices]: #
 [    - Each test must verify only one behaviour]: #
