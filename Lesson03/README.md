@@ -27,19 +27,19 @@ Check out the following slide decks on Itslearning:
 [  - Decision tables]: #
 [  - State Transition Diagrams]: #
 - **Introduction to Unit Testing**, specifically:
-  - Test Doubles
-    
-[- **Unit Testing Best Practices and Anti-Patterns**]: #
-[  - Best practices]: #
-[    - Each test must verify only one behaviour]: #
-[    - Test case selection should be comprehensive]: #
-[    - Full regression testing should be run as often as possible]: #
-[    - Code must be written so that it is testable (e.g., pure functions or methods)]: #
-[  - Anti-patterns]: #
-[    - Do never test private methods directly]: #
-[    - Do never expose private state]: #
-[    - Do not leak domain knowledge to the unit tests]: #
-[    - Avoid code pollution]: #
+  - Test Doubles    
+- **Unit Testing Best Practices and Anti-Patterns**
+  - Best practices
+    - Each test must verify only one behaviour
+    - Test case selection should be comprehensive
+    - Full regression testing should be run as often as possible
+    - Code must be written so that it is testable (e.g., pure functions or methods)
+  - Anti-patterns
+    - Do never test private methods directly
+    - Do never expose private state
+    - Do not leak domain knowledge to the unit tests
+    - Avoid code pollution
+
 [- **Unit Testing Approaches**, focusing on the following concepts]: #
 [  - Private, shared and volatile dependencies]: #
 [  - The Classical Approach to Unit Testing]: #
