@@ -12,6 +12,7 @@
 [  -> SonarQube demo]: #
 [    -> SonarQube free tier: https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here]: #
 [    -> SonarQube Community Build (local): https://www.sonarsource.com/open-source-editions/sonarqube-community-edition]: #
+[    -> Log into SonarQube Cloud with GitHub -> py_measure_converter]: #
 [-> State Transition Testing slides]: #
 [  -> Show the Checkout example (maybe as a class exercise, though it is big)]: #
 
