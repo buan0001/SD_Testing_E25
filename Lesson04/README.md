@@ -5,6 +5,10 @@
 [-> ]: #
 [-> White Box slides -> show coverage in Pytest, Jest, PHPUnit]: #
 [  -> Coverage exercises (maybe the 1st one as a whiteboard demo)]: #
+[-> Static testing slides]: #
+[  -> ESLint demo: npm init, npm init @eslint/config, copy-paste mjs config file, reload window]: #
+[-> ]: #
+[-> ]: #
 [-> ]: #
 [-> ]: #
 
