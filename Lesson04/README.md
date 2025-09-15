@@ -9,8 +9,8 @@
 [-> Static testing slides]: #
 [  -> ESLint demo: npm init, npm init @eslint/config, copy-paste mjs config file, reload window]: #
 [  -> SonarQube demo]: #
-[-> State Transition Testing]: #
-[-> ]: #
+[-> State Transition Testing slides]: #
+[  -> Show the Checkout example (maybe as a class exercise, though it is big)]: #
 
 [## Exercise solutions]: #
 [- Employees(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md)]: #
@@ -20,9 +20,7 @@
 
 [## In-class exercises]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson04/01%20Coverage.md)]: #
-[]: #
-[]: #
-[]: #
+[- State Transition Testing: Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
 
 [## Class takeaways]: #
 [Check out the following slide decks on Itslearning:]: #
@@ -46,6 +44,5 @@
 [- If into JavaScript, check out the ESLint configuration file sample(https://github.com/arturomorarioja/eslint_sample)]: #
 [- Try as many static code analysis tools as you can. SonarQube is a good starting point, but you may find others specifically designed for your programming language(s) of choice]: #
 [- Solve the following State Transition Diagrams exercises]: #
-[  - Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
 [  - ATM(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)]: #
 [  - Login(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)]: #
