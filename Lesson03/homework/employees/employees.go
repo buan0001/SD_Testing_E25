@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"regexp"
+	"strings"
 	"time"
 )
 
@@ -31,32 +32,34 @@ const (
 	Tertiary
 )
 
-func (d Department) String() string {
-	switch d {
-	case HR:
-		return "HR"
-	case Finance:
-		return "finance"
-	case IT:
-		return "IT"
-	case Sales:
-		return "sales"
-	case GeneralServices:
-		return "general services"
-	}
-	return "unknown"
+var departmentName = map[Department]string{
+	HR:              "HR",
+	Finance:         "finance",
+	IT:              "IT",
+	Sales:           "sales",
+	GeneralServices: "general services",
 }
 
-func (d EducationLevel) String() string {
-	switch d {
-	case Primary:
-		return "primary"
-	case Secondary:
-		return "secondary"
-	case Tertiary:
-		return "tertiary"
+var educationName = map[EducationLevel]string{
+	Primary:   "primary",
+	Secondary: "secondary",
+	Tertiary:  "tertiary",
+}
+
+func (d Department) String() string {
+	name, found := departmentName[d]
+	if !found {
+		return "unknown"
 	}
-	return "none"
+	return name
+}
+
+func (e EducationLevel) String() string {
+	name, found := educationName[e]
+	if !found {
+		return "none"
+	}
+	return name
 }
 
 type Employee struct {
@@ -86,19 +89,18 @@ func (e Employee) String() string {
 	)
 }
 
-func isValidName(name string) bool {
-	re := regexp.MustCompile(`^[A-Za-z -]{1,30}$`)
-	return re.MatchString(name)
-}
-
 // GETTERS / SETTERS BOILERPLATE
 
 func (e *Employee) GetCPR() string {
 	return e.cpr
 }
 
-func (e *Employee) SetCPR(cpr string) {
-	e.cpr = cpr
+func (e *Employee) SetCPR(cpr string) error {
+	if isValidCPR(cpr) {
+		e.cpr = cpr
+		return nil
+	}
+	return fmt.Errorf("invalid cpr %v", cpr)
 }
 
 func (e *Employee) GetFirstName() string {
@@ -110,7 +112,7 @@ func (e *Employee) SetFirstName(firstName string) error {
 		e.firstName = firstName
 		return nil
 	}
-	return fmt.Errorf("invalid first name")
+	return fmt.Errorf("invalid first name %v", firstName)
 }
 
 func (e *Employee) GetLastName() string {
@@ -158,7 +160,7 @@ func (e *Employee) GetBirthDate() time.Time {
 }
 
 func (e *Employee) SetBirthDate(bday time.Time) error {
-	if time.Now().Year()-bday.Year() >= 18 {
+	if bday.Before(time.Now().AddDate(-18, 0, 0)) {
 		e.birthDate = bday
 		return nil
 	}
@@ -172,7 +174,7 @@ func (e *Employee) GetEmploymentDate() time.Time {
 func (e *Employee) SetEmploymentDate(empD time.Time) error {
 	if time.Now().Before(empD) {
 		diff := time.Until(empD)
-		return fmt.Errorf("you cannot start in the future (starts in %d hours)", int(diff.Hours()/24))
+		return fmt.Errorf("you cannot start in the future (starts in %d days)", int(diff.Hours()/24))
 	}
 	e.employmentDate = empD
 	return nil
@@ -186,22 +188,35 @@ func (e *Employee) SetCountry(country string) {
 	e.country = country
 }
 
-// func setCountry(e *Employee, country string) {
-// 	e.country = country
-// }
+func isValidName(name string) bool {
+	re := regexp.MustCompile(`^[A-Za-z -]{1,30}$`)
+	return re.MatchString(name)
+}
 
-// END OF BORING STUFF
+func isValidCPR(cpr string) bool {
+	re := regexp.MustCompile(`^[0-9]{10}$`)
+	return re.MatchString(cpr)
+}
 
-func getSalary(emp *Employee) float64 {
+// emp.employmentDate OF BORING STUFF
+
+func (emp *Employee) GetSalary() float64 {
 	return emp.baseSalary + (float64(emp.educationLevel) * 1220)
 }
 
-func getDiscount(emp *Employee) float64 {
-	return float64(time.Now().Year()-emp.employmentDate.Year()) * 0.5
+func (emp *Employee) GetDiscount() float64 {
+	now := time.Now()
+	years :=  now.Year() - emp.employmentDate.Year()
+	if emp.employmentDate.Month() < now.Month() ||
+		(emp.employmentDate.Month() == now.Month() && emp.employmentDate.Day() < now.Day()) {
+		years--
+	}
+
+	return float64(years) * 0.5
 }
 
-func getShippingCosts(emp *Employee) float64 {
-	switch emp.country {
+func (emp *Employee) GetShippingCosts() float64 {
+	switch strings.ToLower(emp.country) {
 	case "denmark", "norway", "sweden":
 		return 0
 	case "iceland", "finland":
@@ -221,19 +236,18 @@ func NewEmployee(
 ) (*Employee, error) {
 
 	emp := Employee{
-		cpr:            cpr,
 		department:     department,
 		educationLevel: educationLevel,
 		country:        country,
 	}
-	// Manually call the setters on the fields with validation. That is, first name, last name, base salary, date of birth, date of employment
-
-	setters := []func() error {
+	// Manually calling setters on fields that require validation
+	setters := []func() error{
 		func() error { return emp.SetFirstName(firstName) },
 		func() error { return emp.SetLastName(lastName) },
 		func() error { return emp.SetBaseSalary(baseSalary) },
 		func() error { return emp.SetBirthDate(birthDate) },
 		func() error { return emp.SetEmploymentDate(employmentDate) },
+		func() error { return emp.SetCPR(cpr) },
 	}
 
 	for _, set := range setters {
@@ -246,7 +260,7 @@ func NewEmployee(
 }
 
 func CallEmployeesFuncs() {
-	emp, err := NewEmployee("12345678", "Hornet", "Shaw", IT, 23456.78, Secondary,
+	emp, err := NewEmployee("1234567890", "Hornet", "Shaw", IT, 23456.78, Secondary,
 		time.Date(1998, 5, 3, 0, 0, 0, 0, time.UTC),
 		time.Date(2025, 2, 9, 0, 0, 0, 0, time.UTC),
 		"Denmark",
