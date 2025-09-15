@@ -2,14 +2,14 @@
 
 # Lesson 4 - 16 September
 
-[-> ]: #
+[-> Employees solution]: #
 [-> White Box slides -> show coverage in Pytest, Jest, PHPUnit]: #
 [  -> Coverage exercises (maybe the 1st one as a whiteboard demo)]: #
+[-> Solutions to Driver's License and Airline, depending on how many did them]: #
 [-> Static testing slides]: #
 [  -> ESLint demo: npm init, npm init @eslint/config, copy-paste mjs config file, reload window]: #
-[-> ]: #
-[-> ]: #
-[-> ]: #
+[  -> SonarQube demo]: #
+[-> State Transition Testing]: #
 [-> ]: #
 
 [## Exercise solutions]: #
@@ -34,6 +34,8 @@
 [  - The value these tools bring to software quality]: #
 [  - Linting, exemplified in JavaScript (check out the slides on **ESLint**)]: #
 [  - Static code analysis tools like SonarQube]: #
+[- **Test Design Techniques - Black-box**, with especial attention to:]: #
+[  - State Transition Diagrams]: #
 
 [## Homework]: #
 [- Reflect on all of the above]: #
@@ -43,4 +45,7 @@
 [  - Enforcing coding style and rules]: #
 [- If into JavaScript, check out the ESLint configuration file sample(https://github.com/arturomorarioja/eslint_sample)]: #
 [- Try as many static code analysis tools as you can. SonarQube is a good starting point, but you may find others specifically designed for your programming language(s) of choice]: #
-[]: #
+[- Solve the following State Transition Diagrams exercise]: #
+[  - Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
+[  - ATM(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)]: #
+[  - Login(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)]: #
