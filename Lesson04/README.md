@@ -8,7 +8,10 @@
 [-> Solutions to Driver's License and Airline, depending on how many did them]: #
 [-> Static testing slides]: #
 [  -> ESLint demo: npm init, npm init @eslint/config, copy-paste mjs config file, reload window]: #
+[  -> VM demo]: #
 [  -> SonarQube demo]: #
+[    -> SonarQube free tier: https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here]: #
+[    -> SonarQube Community Build (local): https://www.sonarsource.com/open-source-editions/sonarqube-community-edition]: #
 [-> State Transition Testing slides]: #
 [  -> Show the Checkout example (maybe as a class exercise, though it is big)]: #
 
