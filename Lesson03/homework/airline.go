@@ -3,8 +3,3 @@ package lesson3
 // Decision table testing
 // Driver's license. It also involves equivalence partitions and boundary values
 // Airline
-
-func test(){
-	e := Employee{}
-	e.baseSalary = 2
-}
