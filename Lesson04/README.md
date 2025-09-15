@@ -29,10 +29,14 @@
 [- **Static Testing: Static Code Analysis**, specifically:]: #
 [  - The value these tools bring to software quality]: #
 [  - Linting, exemplified in JavaScript (check out the slides on **ESLint**)]: #
-[  - Static code analysis tools like SonarCloud or SonarQube]: #
+[  - Static code analysis tools like SonarQube]: #
 
 [## Homework]: #
-[]: #
-[]: #
-[]: #
+[- Reflect on all of the above]: #
+[- Calculate coverage for your previous unit testing projects with your unit testing framework of choice]: #
+[- Try linters for the programming language(s) of your choice with two purposes:]: #
+[  - Finding syntax errors]: #
+[  - Enforcing coding style and rules]: #
+[- If into JavaScript, check out the ESLint configuration file sample(https://github.com/arturomorarioja/eslint_sample)]: #
+[- Try as many static code analysis tools as you can. SonarQube is a good starting point, but you may find others specifically designed for your programming language(s) of choice]: #
 []: #
