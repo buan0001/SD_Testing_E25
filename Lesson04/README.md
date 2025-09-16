@@ -2,22 +2,13 @@
 
 # Lesson 4 - 16 September
 
-[    -> SonarQube free tier: https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here]: #
-[    -> SonarQube Community Build (local): https://www.sonarsource.com/open-source-editions/sonarqube-community-edition]: #
-[-> State Transition Testing slides]: #
-[  -> Show the Checkout example (maybe as a class exercise, though it is big)]: #
-
 ## Exercise solutions
 - [Employees](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md) 
 - Decision Table Testing
   - [Driver's License](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md)
     
-[  - Airline(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)]: #
-
 ## In-class exercises
 - [Coverage](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson04/01%20Coverage.md)
-
-[- State Transition Testing: Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
 
 ## Class takeaways
 Check out the following slide decks on Itslearning:
@@ -39,10 +30,13 @@ Check out the following slide decks on Itslearning:
 - Try linters for the programming language(s) of your choice with two purposes:
   - Finding syntax errors
   - Enforcing coding style and rules
+- If you have not solved it already, do the [Airline](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md) decision table testing exercise
 - If into JavaScript, check out the ESLint configuration file sample(https://github.com/arturomorarioja/eslint_sample)
 - Try as many static code analysis tools as you can. SonarQube is a good starting point, but you may find others specifically designed for your programming language(s) of choice
   - [SonarQube Cloud free tier](https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here)  
   - [SonarQube Community Build](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition) (local installation)
+- Check out the following State Transition Diagram example:
+  - [Checkout](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)
 - Solve the following State Transition Diagrams exercises
   - [ATM](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)
   - [Login](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)
