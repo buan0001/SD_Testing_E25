@@ -38,6 +38,6 @@ Check out the following slide decks on Itslearning:
   - [SonarQube Community Build](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition) (local installation)
 - Check out the following State Transition Diagram example:
   - [Checkout](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)
-- Solve the following State Transition Diagrams exercises
+- Solve the following State Transition Diagram exercises
   - [ATM](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)
   - [Login](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)
