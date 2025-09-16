@@ -2,8 +2,6 @@
 
 # Lesson 3 - 9 September
 
-[-> 5 State transition testing + in-class exercise]: #
-
 ## Exercise solutions
 - [Password field](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/04%20EP%20BV%20Password%20field.md)
 - [E-shop](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/05%20EP%20BV%20E-shop.md)
@@ -13,16 +11,11 @@
   - Decision table testing
     - [Input form](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/07%20DT%20Input%20form.md)
       
-[  - State Transition Diagrams]: #
-[    - Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
-
 ## Class takeaways
 Check out the following slide decks on Itslearning:
 
 - **Test Design Techniques - Black-box**, with especial attention to:
-  - Decision tables
-    
-[  - State Transition Diagrams]: #
+  - Decision tables    
 - **Introduction to Unit Testing**, specifically:
   - Test Doubles    
 - **Unit Testing Best Practices and Anti-Patterns**
@@ -61,7 +54,3 @@ Check out the following slide decks on Itslearning:
   - Decision table testing
     - [Driver's license](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md). It also involves equivalence partitions and boundary values
     - [Airline](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)
-    
-[  - State Transition Diagrams]: #
-[    - ATM(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)]: #
-[    - Login(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)]: #
