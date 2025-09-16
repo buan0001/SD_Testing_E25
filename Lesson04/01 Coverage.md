@@ -115,6 +115,26 @@ Define a minimum set of test cases for the following pseudocode to reach
 22 End
 ```
 
+**Solution**
+
+1. Test cases 100% statement coverage
+
+    ```
+    #1. Values: Balance = 5000
+
+    #2. Values: Balance = 15000
+    ```
+
+2. Test cases 100% decision coverage
+
+    ```
+    #1. Values: Balance = 500
+
+    #2. Values: Balance = 5000
+
+    #3. Values: Balance = 15000
+    ```
+
 #### Number
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
