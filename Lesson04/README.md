@@ -22,8 +22,9 @@
 [  - Driver's License(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md)]: #
 [  - Airline(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)]: #
 
-[## In-class exercises]: #
-[- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson04/01%20Coverage.md)]: #
+## In-class exercises
+- [Coverage](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson04/01%20Coverage.md)
+
 [- State Transition Testing: Checkout(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/02%20ST%20Checkout.md)]: #
 
 [## Class takeaways]: #
