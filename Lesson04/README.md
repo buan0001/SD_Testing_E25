@@ -2,24 +2,16 @@
 
 # Lesson 4 - 16 September
 
-[-> White Box slides -> show coverage in Pytest, Jest, PHPUnit]: #
-[  -> Coverage exercises (maybe the 1st one as a whiteboard demo)]: #
-[-> Solutions to Driver's License and Airline, depending on how many did them]: #
-[-> Static testing slides]: #
-[  -> ESLint demo: npm init, npm init @eslint/config, copy-paste mjs config file, reload window]: #
-[  -> VM demo]: #
-[  -> SonarQube demo]: #
 [    -> SonarQube free tier: https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here]: #
 [    -> SonarQube Community Build (local): https://www.sonarsource.com/open-source-editions/sonarqube-community-edition]: #
-[    -> Log into SonarQube Cloud with GitHub -> py_measure_converter]: #
 [-> State Transition Testing slides]: #
 [  -> Show the Checkout example (maybe as a class exercise, though it is big)]: #
 
 ## Exercise solutions
-- [Employees](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md)
-  
-[- Decision Table Testing]: #
-[  - Driver's License(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md)]: #
+- [Employees](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md) 
+- Decision Table Testing
+  - [Driver's License](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md)
+    
 [  - Airline(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)]: #
 
 ## In-class exercises
