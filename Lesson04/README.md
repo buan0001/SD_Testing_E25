@@ -2,7 +2,6 @@
 
 # Lesson 4 - 16 September
 
-[-> Employees solution]: #
 [-> White Box slides -> show coverage in Pytest, Jest, PHPUnit]: #
 [  -> Coverage exercises (maybe the 1st one as a whiteboard demo)]: #
 [-> Solutions to Driver's License and Airline, depending on how many did them]: #
@@ -16,8 +15,9 @@
 [-> State Transition Testing slides]: #
 [  -> Show the Checkout example (maybe as a class exercise, though it is big)]: #
 
-[## Exercise solutions]: #
-[- Employees(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md)]: #
+## Exercise solutions
+- [Employees](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/01%20Employees.md)
+  
 [- Decision Table Testing]: #
 [  - Driver's License(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/08%20EP%20BV%20DT%20Driver's%20license.md)]: #
 [  - Airline(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)]: #
