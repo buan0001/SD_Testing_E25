@@ -32,7 +32,7 @@ Check out the following slide decks on Itslearning:
   - Finding syntax errors
   - Enforcing coding style and rules
 - If you have not solved it already, do the [Airline](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md) decision table testing exercise
-- If into JavaScript, check out the ESLint configuration file sample(https://github.com/arturomorarioja/eslint_sample)
+- If into JavaScript, check out the [ESLint configuration file sample](https://github.com/arturomorarioja/eslint_sample)
 - Try as many static code analysis tools as you can. SonarQube is a good starting point, but you may find others specifically designed for your programming language(s) of choice
   - [SonarQube Cloud free tier](https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here)  
   - [SonarQube Community Build](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition) (local installation)
