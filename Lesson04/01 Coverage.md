@@ -3,8 +3,9 @@
 #### Algorithm
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
+- [q, r, s]: [4, 23, 10] [6, -, -]
 2. 100% decision coverage
-
+- [q, r, s]: [4, 23, 10] [6, 23, 15], [6, 20, 10]
 ```
 IF q <= 5 THEN
     x = 100
@@ -23,8 +24,12 @@ ENDIF
 #### Grading
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
+- #1 StudentScore: 80
+- #2 StudentScore: 60
+- #3 StudentScore: 40
+- #4 StudentScore: 20
 2. 100% decision coverage
-
+- See above?
 ```
 Program Grading
     StudentScore: integer
@@ -50,7 +55,11 @@ End
 #### Interest
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
+- #1 Balance: 1001
+- #2 Balance: 10000
 2. 100% decision coverage
+- Same as above +
+- #3 Balance: 1000
 
 ```
  1 Program BestInterest

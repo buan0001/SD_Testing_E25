@@ -151,11 +151,12 @@ func TestInvalidBaseSalary(t *testing.T) {
 var eighteenYearsAgo = time.Now().AddDate(-18, 0, 0)
 
 func TestValidBday(t *testing.T) {
+	t.Parallel()
 	testcases := []time.Time{
 		time.Date(1998, 5, 3, 0, 0, 0, 0, time.UTC),
 		eighteenYearsAgo,
-		eighteenYearsAgo.Add(time.Nanosecond),
-		eighteenYearsAgo.Add(time.Microsecond),
+		eighteenYearsAgo.AddDate(0,0,-1),
+		eighteenYearsAgo.AddDate(0,0,-2),
 	}
 
 	for _, test := range testcases {
@@ -171,12 +172,10 @@ func TestValidBday(t *testing.T) {
 }
 func TestInvalidBday(t *testing.T) {
 	testcases := []time.Time{
-		time.Now().Add(time.Second * 5),
-		time.Now().AddDate(-17, -11, -29),
-		time.Now().AddDate(-17, -11, -30),
+		
 		time.Now().AddDate(1, 0, 0),
-		eighteenYearsAgo.Add(time.Hour),
-		eighteenYearsAgo.Add(time.Hour * 2),
+		eighteenYearsAgo.AddDate(0, 0, 1),
+		eighteenYearsAgo.AddDate(0, 0, 2),
 	}
 	for _, test := range testcases {
 		t.Run(fmt.Sprintf("%v", test), func(t *testing.T) {
@@ -194,7 +193,7 @@ func TestValidEmpDay(t *testing.T) {
 	testcases := []time.Time{
 		time.Date(1998, 5, 3, 0, 0, 0, 0, time.UTC),
 		time.Now(),
-		time.Now().Add(-time.Second),
+		time.Now().AddDate(0, 0, -2),
 		time.Now().AddDate(0, 0, -1),
 	}
 

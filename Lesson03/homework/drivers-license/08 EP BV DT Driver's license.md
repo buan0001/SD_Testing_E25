@@ -24,7 +24,7 @@ Use black-box analysis to identify a comprehensive series of test cases:
 2. Write test cases based on the decision table
 3. Identify the corresponding equivalence partitions
 
-- Points: 0-84, 85-100, 100-INF
+- Points: 0-84, 85-100, 101-INF
 - Mistakes: 0-2, 3-INF
 
 4. Use 3-value boundary value analysis to identify further test cases
