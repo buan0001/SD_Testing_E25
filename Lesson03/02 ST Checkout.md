@@ -7,3 +7,7 @@ Create a state transition diagram for this simple webshop checkout procedure:
 - If the credit card information is erroneous, an error message is displayed
 - The customer can also click on the "Cancel" button or on the "Back" button
 - If the credit card information is correct, a message confirming the purchase is displayed
+
+#### Solution
+
+![image](https://github.com/user-attachments/assets/2390ff63-4a73-4da2-a45e-e37334d811bd)
