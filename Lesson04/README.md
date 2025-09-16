@@ -27,6 +27,7 @@ Check out the following slide decks on Itslearning:
 - Reflect on all of the above
 - Finish the remaining [coverage calculation exercises](https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)
 - Calculate coverage for your previous unit testing projects with your unit testing framework of choice
+  - Evaluate whether the uncovered statements deserve a unit test or not
 - Try linters for the programming language(s) of your choice with two purposes:
   - Finding syntax errors
   - Enforcing coding style and rules
