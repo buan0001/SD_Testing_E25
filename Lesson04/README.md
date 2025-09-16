@@ -41,7 +41,8 @@ Check out the following slide decks on Itslearning:
   - Enforcing coding style and rules
 - If into JavaScript, check out the ESLint configuration file sample(https://github.com/arturomorarioja/eslint_sample)
 - Try as many static code analysis tools as you can. SonarQube is a good starting point, but you may find others specifically designed for your programming language(s) of choice
-  
-[- Solve the following State Transition Diagrams exercises]: #
-[  - ATM(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)]: #
-[  - Login(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)]: #
+  - [SonarQube Cloud free tier](https://www.sonarsource.com/blog/the-new-sonarqube-free-tier-is-here)  
+  - [SonarQube Community Build](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition) (local installation)
+- Solve the following State Transition Diagrams exercises
+  - [ATM](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)
+  - [Login](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)
