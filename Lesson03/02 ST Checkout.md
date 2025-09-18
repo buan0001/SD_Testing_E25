@@ -10,4 +10,4 @@ Create a state transition diagram for this simple webshop checkout procedure:
 
 #### Solution
 
-![image](https://github.com/user-attachments/assets/2390ff63-4a73-4da2-a45e-e37334d811bd)
+<img width="1024" height="668" alt="image" src="https://github.com/user-attachments/assets/ba3761d2-bf40-4e03-b671-bdbf4c791df8" />
