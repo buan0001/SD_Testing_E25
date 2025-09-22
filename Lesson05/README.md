@@ -26,6 +26,16 @@
 [- **API Testing**. Focus on:]: #
 [  - How do API calls usually fail?]: #
 [  - What to test for?]: #
+[  - Postman (although you can use Insomnia, ThunderClient or any other similar platform)]: #
+[]: #
+[]: #
+[]: #
+[]: #
+
+[## Homework]: #
+[- Solve the measure converter exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/01%20Measure%20converter.md), where you will:]: #
+[  - Apply your black-box and white-box test design knowledge]: #
+[  - Decide what to mock and what not to mock (and, most importantly, why)]: #
 []: #
 []: #
 []: #
