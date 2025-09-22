@@ -15,6 +15,8 @@
 [  -> Demo Postman's KEAs mock server]: #
 [-> ATM solution]: #
 [-> DB testing]: #
+[-> Login solution]: #
+[-> Continuous testing]: #
 
 [## Exercise solutions]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
@@ -33,8 +35,8 @@
 [  - How do API calls usually fail?]: #
 [  - What to test for?]: #
 [  - Postman (although you can use Insomnia, ThunderClient or any other similar platform)]: #
-[]: #
-[]: #
+[- **Database Testing**]: #
+[- **Continuous Testing**]: #
 []: #
 []: #
 
@@ -53,6 +55,7 @@
 [    - Remember to write positive and negative tests]: #
 [    - Sort your tests so that you can run them in a row]: #
 [  - Solve the customers API exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/02%20Customers%20API.md)]: #
-[]: #
-[]: #
-[]: #
+[- Continuous Testing]: #
+[  - Try one or several CI/CD applications on applications of yours]: #
+[    - Create continuous integration jobs and pipelines]: #
+[    - Run tests in the pipeline (unit tests, integration tests, linting, static code analysis tools)]: #
