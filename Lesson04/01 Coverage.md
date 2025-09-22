@@ -72,23 +72,8 @@ Begin
 End
 ```
 
-**Solution**
 
-1. Test cases 100% statement coverage
 
-    ```
-    #1. Values: StudentScore = 85
-    
-    #2. Values: StudentScore = 65
-    
-    #3. Values: StudentScore = 45
-    
-    #4. Values: StudentScore = 35
-    ```
-
-2. Test cases 100% decision coverage
-
-    Same as statement coverage, because every if has an else.
    
 #### Interest
 Define a minimum set of test cases for the following pseudocode to reach
@@ -124,25 +109,6 @@ Define a minimum set of test cases for the following pseudocode to reach
 22 End
 ```
 
-**Solution**
-
-1. Test cases 100% statement coverage
-
-    ```
-    #1. Values: Balance = 5000
-
-    #2. Values: Balance = 15000
-    ```
-
-2. Test cases 100% decision coverage
-
-    ```
-    #1. Values: Balance = 500
-
-    #2. Values: Balance = 5000
-
-    #3. Values: Balance = 15000
-    ```
 
 #### Number
 Define a minimum set of test cases for the following pseudocode to reach
@@ -182,6 +148,22 @@ while(lContinue)
 Write "Goodbye";
 ```
 
+**Solution**
+```
+Statement coverage:
+1. nNumber = 0
+2. nOption = 0, nNumber = 1
+3. nOption = 1, nNumber = 2
+4. nOption = 1, nNumber = 1
+5. nOption = 2, nNumber = 5
+5. nOption = 2, nNumber = 6
+
+Decision coverage:
+The same again?
+
+```
+
+
 #### Employees
 
 Define a minimum set of test cases for the following pseudocode to reach
@@ -208,6 +190,18 @@ If not error
 Else
     Write "Error opening the file"
 Endif
+```
+
+**Solution**
+```
+Statement coverage:
+1. Error during file opening?
+2. Country code = "dk", have an employee with that country code in the file?
+
+Decision coverage:
+Same as above +
+3. No matching entry in file
+
 ```
 
 Exercises based on Brian Hambling’s *Software Testing: An ISTQB-BCS Certified Tester Foundation Guide*, 4th ed. (2019)
