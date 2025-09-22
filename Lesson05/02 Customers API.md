@@ -1,10 +1,10 @@
 ### Customers
 
-Create and automate in Postman the test scripts for the [Customers sample API](https://github.com/arturomorarioja/customers_api) from scratch:
+Create and automate in Postman (or a similar API testing tool) the test scripts for the [Customers sample API](https://github.com/arturomorarioja/customers_api) from scratch:
 
 1. Install the Customers sample API and run it on port 8001
 2. In Postman, create a new collection
-3. Create an environment for said collection with the following variables and values:
+3. Create an environment for the said collection with the following variables and values:
     - `BASE_URL: http://localhost:8001`
     - `FIRST_NAME: Selma F.`
     - `LAST_NAME: Lassen`
