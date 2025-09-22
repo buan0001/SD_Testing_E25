@@ -36,9 +36,8 @@
 [  - What to test for?]: #
 [  - Postman (although you can use Insomnia, ThunderClient or any other similar platform)]: #
 [- **Database Testing**]: #
-[- **Continuous Testing**]: #
-[]: #
-[]: #
+[- **Continuous Testing**. Notice:]: #
+[  - The difference between CI, CT, CD and the other CD]: #
 
 [## Homework]: #
 [- Integration testing]: #
