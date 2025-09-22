@@ -17,6 +17,7 @@
 [-> DB testing]: #
 [-> Login solution]: #
 [-> Continuous testing]: #
+[  -> Demo py_cartridges_unit_tests, js_vat and php_words]: #
 
 [## Exercise solutions]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
