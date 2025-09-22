@@ -9,7 +9,8 @@
 [-> Airline solution]: #
 [-> API Testing]: #
 [  -> Demo devtools network tab with a PHP app (films?)]: #
-[  -> Demo library v3]: #
+[  -> Demo Postman's library v3]: #
+[  -> Demo Postman's KEAs mock server]: #
 
 [## Exercise solutions]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
