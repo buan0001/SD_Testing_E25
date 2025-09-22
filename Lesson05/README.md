@@ -4,6 +4,11 @@
 
 [-> Ask about their experience with SonarQube, linters and others]: #
 [-> Ask whether they applied coverage to their existing projects]: #
+[-> Coverage solution]: #
+[-> IT]: #
+[-> Airline solution]: #
+[-> API Testing]: #
+[  -> Demo devtools network tab with a PHP app (films?)]: #
 
 [## Exercise solutions]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
@@ -12,3 +17,16 @@
 [- State Transition Testing]: #
 [  - ATM(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)]: #
 [  - Login(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)]: #
+
+[## Class takeaways]: #
+[Check out the following slide decks on Itslearning:]: #
+[- **Integration Testing**, with especial attention to]: #
+[  - Advantages: protection against regressions, resistance to refactoring]: #
+[  - Disadvantages: slow, difficult to maintain]: #
+[- **API Testing**. Focus on:]: #
+[  - How do API calls usually fail?]: #
+[  - What to test for?]: #
+[]: #
+[]: #
+[]: #
+[]: #
