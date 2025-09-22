@@ -9,6 +9,7 @@
 [-> Airline solution]: #
 [-> API Testing]: #
 [  -> Demo devtools network tab with a PHP app (films?)]: #
+[  -> Demo library v3]: #
 
 [## Exercise solutions]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
@@ -33,10 +34,15 @@
 []: #
 
 [## Homework]: #
-[- Solve the measure converter exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/01%20Measure%20converter.md), where you will:]: #
-[  - Apply your black-box and white-box test design knowledge]: #
-[  - Decide what to mock and what not to mock (and, most importantly, why)]: #
-[]: #
+[- Integration testing]: #
+[  - Solve the measure converter exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/01%20Measure%20converter.md), where you will:]: #
+[    - Apply your black-box and white-box test design knowledge]: #
+[    - Decide what to mock and what not to mock (and, most importantly, why)]: #
+[- API testing]: #
+[  - Check out the library API v3(https://github.com/arturomorarioja/py_library_api_v3) Postman tests]: #
+[    - Collection(https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_collection.json)]: #
+[    - Environment(https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_environment.json)]: #
+[  - Solve the customers API exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/02%20Customers%20API.md)]: #
 []: #
 []: #
 []: #
