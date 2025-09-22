@@ -2,6 +2,8 @@
 
 # Lesson 5 - 23 September
 
+[-> Download DB testing slides!]: #
+
 [-> Ask about their experience with SonarQube, linters and others]: #
 [-> Ask whether they applied coverage to their existing projects]: #
 [-> Coverage solution]: #
@@ -11,6 +13,8 @@
 [  -> Demo devtools network tab with a PHP app (films?)]: #
 [  -> Demo Postman's library v3]: #
 [  -> Demo Postman's KEAs mock server]: #
+[-> ATM solution]: #
+[-> DB testing]: #
 
 [## Exercise solutions]: #
 [- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
