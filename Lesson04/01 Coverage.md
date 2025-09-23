@@ -1,4 +1,4 @@
-### Coverage calculation
+### Coverage calculation - Solutions
 
 #### Algorithm
 Define a minimum set of test cases for the following pseudocode to reach
@@ -39,7 +39,7 @@ ENDIF
 
     #3. Values: q = 8, r = 25, s = 15 (else – if - else)
     ```
-    
+
 #### Grading
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
@@ -84,7 +84,7 @@ End
 2. Test cases 100% decision coverage
 
     Same as statement coverage, because every if has an else.
-   
+
 #### Interest
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
@@ -173,6 +173,24 @@ while(lContinue)
 Write "Goodbye";
 ```
 
+**Solution**
+
+1. Test cases 100% statement coverage
+
+    ```
+    #1. Values: nNumber = 0
+    
+    #2. Values: nNumber = 4, nOption = 1, nNumber = 5, nOption = 1, nNumber = 5, nOption = 2, nNumber = 4, nOption = 2, nNumber = 4, nOption = 0
+    ```
+
+2. Test cases 100% decision coverage
+
+    Same as statement coverage, but test case #2 needs another value for the only if without an else (`if(nOption = 2)`):
+
+    ```
+    #3. Values: nNumber = 4, nOption = 1, nNumber = 5, nOption = 1, nNumber = 5, nOption = 2, nNumber = 4, nOption = 2, nNumber = 4, nOption = 3, nOption = 0
+    ```
+
 #### Employees
 
 Define a minimum set of test cases for the following pseudocode to reach
@@ -200,5 +218,23 @@ Else
     Write "Error opening the file"
 Endif
 ```
+
+**Solution**
+
+1. Test cases 100% statement coverage
+
+    ```
+    #1. Values: CountryCode = DK, country code in file's first line = DK
+    
+    #2. Values: broken file
+    ```
+    
+2. Test cases 100% decision coverage
+
+    ```
+    #1. Values: CountryCode = DK, country code in file's first line = DK, country code in file's second line = SE (to execute the else of the inner if)
+    
+    #2. Values: broken file
+    ```
 
 Exercises based on Brian Hambling’s *Software Testing: An ISTQB-BCS Certified Tester Foundation Guide*, 4th ed. (2019)
