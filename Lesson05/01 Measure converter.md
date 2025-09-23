@@ -45,7 +45,7 @@ Create several classes that perform several measure conversions according to the
         - Free choice of database model and DBMS (here you are a [MySQL script](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/converter.sql), just in case)
         - Possible implementation:
 
-          ​​​​![image](https://github.com/user-attachments/assets/e5bd4dbb-94c6-42b4-bb14-ae05c617c4c8)
+          <img width="217" height="218" alt="image" src="https://github.com/user-attachments/assets/62b9d147-f93a-4ba0-9ad3-ca658cd91d79" />
 
         - @param. The grade to convert
         - @param. The country to whose grading system the grade corresponds to
