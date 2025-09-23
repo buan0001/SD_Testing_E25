@@ -42,7 +42,7 @@
 - API testing
   - Check out the [library API v3](https://github.com/arturomorarioja/py_library_api_v3) Postman tests
     - [Collection](https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_collection.json)
-    - Environment(https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_environment.json)
+    - [Environment](https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_environment.json)
       
 [  - Practice API testing in existing APIs of yours:]: #
 [    - Create collections to group requests to the same API and environments to define variables]: #
