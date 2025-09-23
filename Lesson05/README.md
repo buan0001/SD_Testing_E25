@@ -11,18 +11,18 @@
   - [ATM](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)
   - [Login](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)
 
-[## Class takeaways]: #
-[Check out the following slide decks on Itslearning:]: #
-[- **Integration Testing**, with especial attention to]: #
-[  - Advantages: protection against regressions, resistance to refactoring]: #
-[  - Disadvantages: slow, difficult to maintain]: #
-[- **API Testing**. Focus on:]: #
-[  - How do API calls usually fail?]: #
-[  - What to test for?]: #
-[  - Postman (although you can use Insomnia, ThunderClient or any other similar platform)]: #
-[- **Database Testing**]: #
-[- **Continuous Testing**. Notice:]: #
-[  - The difference between CI, CT, CD and the other CD]: #
+## Class takeaways
+Check out the following slide decks on Itslearning:
+- **Integration Testing**, with especial attention to
+  - Advantages: protection against regressions, resistance to refactoring
+  - Disadvantages: slow, difficult to maintain
+- **API Testing**. Focus on:
+  - How do API calls usually fail?
+  - What to test for?
+  - Postman (although you can use Insomnia, ThunderClient or any other similar platform)
+- **Database Testing**
+- **Continuous Testing**. Notice:
+  - The difference between CI, CT, CD and the other CD
 
 ## Homework
 
