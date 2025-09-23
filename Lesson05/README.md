@@ -44,12 +44,13 @@
     - [Collection](https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_collection.json)
     - [Environment](https://github.com/arturomorarioja/py_library_api_v3/blob/main/postman/Library%20API%20v3.postman_environment.json)
       
-[  - Practice API testing in existing APIs of yours:]: #
-[    - Create collections to group requests to the same API and environments to define variables]: #
-[    - Write tests under "Scripts". You can use snippets and the built-in AI tool]: #
-[    - Remember to write positive and negative tests]: #
-[    - Sort your tests so that you can run them in a row]: #
-[  - Solve the customers API exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/02%20Customers%20API.md)]: #
+  - Practice API testing in existing APIs of yours:
+    - Create collections to group requests to the same API and environments to define variables
+    - Write tests under "Scripts". You can use snippets and the built-in AI tool
+    - Remember to write positive and negative tests
+    - Sort your tests so that you can run them in a row
+  - Solve the [customers API exercise](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/02%20Customers%20API.md)
+  - 
 [- Continuous Testing]: #
 [  - Try one or several CI/CD applications on applications of yours]: #
 [    - Create continuous integration jobs and pipelines]: #
