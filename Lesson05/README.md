@@ -19,8 +19,9 @@
 [-> Continuous testing]: #
 [  -> Demo py_cartridges_unit_tests, js_vat and php_words. If necessary, start afresh in py_eshop_unit_tests]: #
 
-[## Exercise solutions]: #
-[- Coverage(https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)]: #
+## Exercise solutions
+- [Coverage](https://github.com/arturomorarioja-ek/SD_Testing_E25/edit/main/Lesson04/01%20Coverage.md) (Number and Employees)
+
 [- Decision Testing]: #
 [  - Airline(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)]: #
 [- State Transition Testing]: #
