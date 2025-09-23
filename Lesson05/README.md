@@ -24,9 +24,10 @@
 
 [- Decision Testing]: #
 [  - Airline(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson02/09%20DT%20Airline.md)]: #
-[- State Transition Testing]: #
-[  - ATM(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)]: #
-[  - Login(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)]: #
+
+- State Transition Testing
+  - [ATM](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/03%20ST%20ATM.md)
+  - [Login](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson03/04%20ST%20Login)
 
 [## Class takeaways]: #
 [Check out the following slide decks on Itslearning:]: #
