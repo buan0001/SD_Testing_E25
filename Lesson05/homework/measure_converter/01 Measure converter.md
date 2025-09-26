@@ -13,11 +13,11 @@ Create several classes that perform several measure conversions according to the
     - convert()
       - It implements an if (if the system is Metric then … otherwise …)
       - @return. The value of the conversion with up to two decimals
-  - Weight
+- Weight
     - Conversion between the Metric and Imperial systems
     - It only covers kilograms and pounds, respectively
     - Free class implementation
-  - Temperature
+- Temperature
     - Conversion between the Celsius, Fahrenheit, and Kelvin scales
     - Temperature class. Methods:
       - Constructor
@@ -28,7 +28,7 @@ Create several classes that perform several measure conversions according to the
         - Each switch calls a method that performs the specific conversion
         - @param. The destination temperature scale
         - @return. The value of the conversion with up to two decimals
-  - Currency
+- Currency
     - Conversion between world currencies
     - Currency class. Methods:
       - Constructor
@@ -37,7 +37,7 @@ Create several classes that perform several measure conversions according to the
         - It calls the API https://freecurrencyapi.net/. This API has an endpoint that returns the conversion rate from the given currency to all other currencies. Use it for this method.
         - @param. The numeric amount to convert with up to two decimals
         - @return. The converted monetary amount with up to two decimals
-  - Grades
+- Grades
     - Conversion between the Danish and American grading systems
     - Grade class. Methods:
       - convert()
