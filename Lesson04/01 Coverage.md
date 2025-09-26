@@ -1,4 +1,4 @@
-### Coverage calculation
+### Coverage calculation - Solutions
 
 #### Algorithm
 Define a minimum set of test cases for the following pseudocode to reach
@@ -40,7 +40,7 @@ ENDIF
 
     #3. Values: q = 8, r = 25, s = 15 (else – if - else)
     ```
-    
+
 #### Grading
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
@@ -72,9 +72,24 @@ Begin
 End
 ```
 
+**Solution**
 
+1. Test cases 100% statement coverage
 
-   
+    ```
+    #1. Values: StudentScore = 85
+    
+    #2. Values: StudentScore = 65
+    
+    #3. Values: StudentScore = 45
+    
+    #4. Values: StudentScore = 35
+    ```
+
+2. Test cases 100% decision coverage
+
+    Same as statement coverage, because every if has an else.
+
 #### Interest
 Define a minimum set of test cases for the following pseudocode to reach
 1. 100% statement coverage
@@ -109,6 +124,25 @@ Define a minimum set of test cases for the following pseudocode to reach
 22 End
 ```
 
+**Solution**
+
+1. Test cases 100% statement coverage
+
+    ```
+    #1. Values: Balance = 5000
+
+    #2. Values: Balance = 15000
+    ```
+
+2. Test cases 100% decision coverage
+
+    ```
+    #1. Values: Balance = 500
+
+    #2. Values: Balance = 5000
+
+    #3. Values: Balance = 15000
+    ```
 
 #### Number
 Define a minimum set of test cases for the following pseudocode to reach
@@ -146,6 +180,25 @@ while(lContinue)
           else
             Write "Not prime";
 Write "Goodbye";
+```
+
+**Solution**
+
+1. Test cases 100% statement coverage
+
+    ```
+    #1. Values: nNumber = 0
+    
+    #2. Values: nNumber = 4, nOption = 1, nNumber = 5, nOption = 1, nNumber = 5, nOption = 2, nNumber = 4, nOption = 2, nNumber = 4, nOption = 0
+    ```
+
+2. Test cases 100% decision coverage
+
+    Same as statement coverage, but test case #2 needs another value for the only if without an else (`if(nOption = 2)`):
+
+    ```
+    #3. Values: nNumber = 4, nOption = 1, nNumber = 5, nOption = 1, nNumber = 5, nOption = 2, nNumber = 4, nOption = 2, nNumber = 4, nOption = 3, nOption = 0
+    ```
 ```
 
 **Solution**
