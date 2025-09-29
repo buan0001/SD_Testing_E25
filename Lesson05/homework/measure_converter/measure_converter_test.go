@@ -3,7 +3,10 @@ package measureconverter
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
+	"github.com/joho/godotenv"
 )
+
+ENVS := godotenv.Read()
 
 // INdia, monOrFri, sixDayStay bool, yo int
 func TestDiscountDT(t *testing.T) {
