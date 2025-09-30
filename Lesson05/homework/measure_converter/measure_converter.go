@@ -44,8 +44,8 @@ func roundToDecimals(num float64, decimals int) float64 {
 	if decimals < 0 {
 		return roundToDecimals(num, 0)
 	}
-	decimal_const := math.Pow10(decimals)
-	return math.Trunc(num*decimal_const) / decimal_const
+	ratio := math.Pow(10, float64(decimals))
+	return math.Round(num*ratio) / ratio
 }
 
 func twoDecimals(num float64) float64 {
@@ -56,17 +56,17 @@ func twoDecimals(num float64) float64 {
 
 type LengthConverter struct {
 	fromSystem MetricImpSys
-	value  float64
+	value      float64
 }
 
-func LengthConverterConstructor(baseSystem MetricImpSys, val float64) (*LengthConverter) {
+func LengthConverterConstructor(baseSystem MetricImpSys, val float64) *LengthConverter {
 	val = twoDecimals(val)
 
 	return &LengthConverter{baseSystem, val}
 }
 
 func (lconv *LengthConverter) Convert() float64 {
-	
+
 	ONE_INCH_TO_CM := 2.54
 	var val float64
 
@@ -85,7 +85,7 @@ type WeightConverter struct {
 	value  float64
 }
 
-func WeightConverterConstructor(sys MetricImpSys, val float64) (*WeightConverter) {
+func WeightConverterConstructor(sys MetricImpSys, val float64) *WeightConverter {
 	val = twoDecimals(val)
 
 	return &WeightConverter{sys, val}
@@ -111,7 +111,7 @@ type TemperatureConverter struct {
 	value  float64
 }
 
-func TemperatureConverterConstructor(sys TempSystem, val float64) (*TemperatureConverter) {
+func TemperatureConverterConstructor(sys TempSystem, val float64) *TemperatureConverter {
 	val = twoDecimals(val)
 
 	return &TemperatureConverter{sys, val}
@@ -160,7 +160,7 @@ func kToC(val float64) float64 {
 	return twoDecimals(val - celKelDiff)
 }
 func fToC(val float64) float64 {
-	return twoDecimals(5.0 / 9 * (val + celFahrDiff))
+	return twoDecimals(5.0 / 9 * (val - celFahrDiff))
 }
 
 //_______________________ CURRENCY CONVERTER ____________________
@@ -209,14 +209,17 @@ func extractAmountFromRequest(currency string, body ApiResponse) (float64, error
 func (conv *CurrencyConverter) Convert(amount float64, destCurrency string) (float64, error) {
 	godotenv.Load() // attempt to load the ENV. Ideally this would happen at server start but it's going to have to stand alone
 	API_KEY := os.Getenv("CURRENCY_API_KEY")
+	BASE_URL := conv.currencyUrl
 	if API_KEY == "" {
 		return -1, fmt.Errorf("couldn't load the API key")
+	} else if BASE_URL == "" {
+		return -1, fmt.Errorf("no API URL found")
+	} else if conv.baseCurrency == "" {
+		return -1, fmt.Errorf("no base currency provided")
+	} else if conv.baseCurrency == destCurrency {
+		return amount, nil // Spare the API on pointless calls
 	}
 
-	BASE_URL := conv.currencyUrl
-	if BASE_URL == "" {
-		return -1, fmt.Errorf("no API URL found")
-	}
 
 	api_url := fmt.Sprintf("%slatest?apikey=%s&base_currency=%s&currencies=%s", BASE_URL, API_KEY, conv.baseCurrency, destCurrency)
 	data, err := getDataFromAPI(api_url)
