@@ -1,12 +1,16 @@
 package measureconverter
 
 import (
+	"database/sql"
 	"encoding/json"
 	"fmt"
+	"log"
 	"math"
 	"net/http"
 	"os"
+	"strings"
 
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/joho/godotenv"
 )
 
@@ -51,21 +55,22 @@ func twoDecimals(num float64) float64 {
 //_______________________ LENGTH CONVERTER ____________________
 
 type LengthConverter struct {
-	system MetricImpSys
+	fromSystem MetricImpSys
 	value  float64
 }
 
-func LengthConverterConstructor(sys MetricImpSys, val float64) (*LengthConverter, error) {
+func LengthConverterConstructor(baseSystem MetricImpSys, val float64) (*LengthConverter) {
 	val = twoDecimals(val)
 
-	return &LengthConverter{sys, val}, nil
+	return &LengthConverter{baseSystem, val}
 }
 
 func (lconv *LengthConverter) Convert() float64 {
+	
 	ONE_INCH_TO_CM := 2.54
 	var val float64
 
-	if lconv.system == Imperial {
+	if lconv.fromSystem == Metric {
 		val = lconv.value / ONE_INCH_TO_CM
 	} else {
 		val = lconv.value * ONE_INCH_TO_CM
@@ -80,10 +85,10 @@ type WeightConverter struct {
 	value  float64
 }
 
-func WeightConverterConstructor(sys MetricImpSys, val float64) (*WeightConverter, error) {
+func WeightConverterConstructor(sys MetricImpSys, val float64) (*WeightConverter) {
 	val = twoDecimals(val)
 
-	return &WeightConverter{sys, val}, nil
+	return &WeightConverter{sys, val}
 }
 
 func (lconv *WeightConverter) Convert() float64 {
@@ -106,10 +111,10 @@ type TemperatureConverter struct {
 	value  float64
 }
 
-func TemperatureConverterConstructor(sys TempSystem, val float64) (*TemperatureConverter, error) {
+func TemperatureConverterConstructor(sys TempSystem, val float64) (*TemperatureConverter) {
 	val = twoDecimals(val)
 
-	return &TemperatureConverter{sys, val}, nil
+	return &TemperatureConverter{sys, val}
 }
 
 func (lconv *TemperatureConverter) Convert(to TempSystem) float64 {
@@ -175,21 +180,16 @@ type ApiResponse struct {
 }
 
 func getDataFromAPI(URLString string) (ApiResponse, error) {
-	// client := &http.Client{Timeout: 10 * time.Second}
-
-	// Make the request
 	resp, err := http.Get(URLString)
 	if err != nil {
 		return ApiResponse{}, err
 	}
 	defer resp.Body.Close()
 
-	// Check for non-200 status
 	if resp.StatusCode != http.StatusOK {
 		return ApiResponse{}, fmt.Errorf("unexpected status: %s", resp.Status)
 	}
 
-	// Decode JSON response into struct
 	var result ApiResponse
 	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
 		return ApiResponse{}, fmt.Errorf("error decoding json: %s", err)
@@ -199,21 +199,18 @@ func getDataFromAPI(URLString string) (ApiResponse, error) {
 }
 
 func extractAmountFromRequest(currency string, body ApiResponse) (float64, error) {
-	c, ok := body.Data[currency]
+	curr, ok := body.Data[currency]
 	if !ok {
 		return 0, fmt.Errorf("currency %s not found", currency)
 	}
-	return c.Value, nil
+	return curr.Value, nil
 }
 
 func (conv *CurrencyConverter) Convert(amount float64, destCurrency string) (float64, error) {
+	godotenv.Load() // attempt to load the ENV. Ideally this would happen at server start but it's going to have to stand alone
 	API_KEY := os.Getenv("CURRENCY_API_KEY")
 	if API_KEY == "" {
-		godotenv.Load()                         // attempt to load the ENV. Ideally this would happen at server start but it's going to have to stand alone
-		API_KEY = os.Getenv("CURRENCY_API_KEY") // Retry
-		if API_KEY == "" {
-			return -1, fmt.Errorf("couldn't load the API key")
-		}
+		return -1, fmt.Errorf("couldn't load the API key")
 	}
 
 	BASE_URL := conv.currencyUrl
@@ -236,20 +233,71 @@ func (conv *CurrencyConverter) Convert(amount float64, destCurrency string) (flo
 
 //_______________________ GRADES CONVERTER ____________________
 
-func ConvertGrades(grade string, gradingSys GradeSystem) {
+func ConvertGrades(grade string, gradingSys GradeSystem) (string, error) {
 	// Excecuting SQL script from GO
-	// 	path := filepath.Join("path", "to", "script.sql")
+	// 1. Create database if not exists
+	rootDB, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/")
+	if err != nil {
+		return "", err
+	}
+	defer rootDB.Close()
 
-	// c, ioErr := ioutil.ReadFile(path)
-	//
-	//	if ioErr != nil {
-	//	   // handle error.
-	//	}
-	//
-	// sql := string(c)
-	// _, err := *pgx.Conn.Exec(sql)
-	//
-	//	if err != nil {
-	//	  // handle error.
-	//	}
+	if _, err := rootDB.Exec(`CREATE DATABASE IF NOT EXISTS converter
+		DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci`); err != nil {
+		return "", fmt.Errorf("create db: %w", err)
+	}
+	fmt.Println("Database ensured.")
+
+	// 2. Connect specifically to converter DB
+	db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/converter")
+	if err != nil {
+		return "", err
+	}
+	defer db.Close()
+
+	content, err := os.ReadFile("grades.sql")
+	if err != nil {
+		return "", fmt.Errorf("read file: %w", err)
+	}
+
+	// 4. Start transaction
+	tx, err := db.Begin()
+	if err != nil {
+		return "", fmt.Errorf("begin tx: %w", err)
+	}
+
+	queries := strings.Split(string(content), ";")
+	for _, q := range queries {
+		q = strings.TrimSpace(q)
+		if q == "" || strings.HasPrefix(q, "CREATE DATABASE") {
+			continue // already handled
+		}
+		if _, err := tx.Exec(q); err != nil {
+			_ = tx.Rollback()
+			return "", fmt.Errorf("exec %q: %w", q, err)
+		}
+	}
+
+	// Commit if all successful
+	if err := tx.Commit(); err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Dummy data loaded in transaction.")
+
+	rows, err := db.Query("SELECT * FROM grades")
+	if err != nil {
+		return "", fmt.Errorf("select: %w", err)
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var id int
+		var gradeDK string
+		var gradeUSA string
+		if err := rows.Scan(&id, &gradeDK, &gradeUSA); err != nil {
+			log.Fatal(err)
+		}
+		fmt.Printf("id %d. DK: %s. USA: %s\n", id, gradeDK, gradeUSA)
+	}
+	return "abc", nil
 }
